@@ -80,7 +80,7 @@
       };
     },
     created() {
-      const url = debug ? '/api/ratings' : 'http://ustbhuangyi.com/sell/api/ratings';
+      const url = debug ? '/api/ratings' : 'http://art.xminnov.com/sell/api/ratings';
       this.$http.get(url).then((response) => {
         response = response.body;
         if (response.errno === ERR_OK) {
